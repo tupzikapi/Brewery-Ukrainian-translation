@@ -9,7 +9,7 @@ Brew_Distilled: Дистильований
 Brew_LessDistilled: Менш дистильований
 Brew_HundredsOfYears: Сотні років
 Brew_Ingredients: Інгредієнти
-Brew_MinutePluralPostfix: s
+Brew_MinutePluralPostfix: і # but i'm not sure, lol
 Brew_OneYear: Один рік
 Brew_ThickBrew: Каламутне пиво
 Brew_Undefined: Вариво з казана
