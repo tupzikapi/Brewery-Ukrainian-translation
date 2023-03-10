@@ -16,7 +16,7 @@ Brew_Undefined: Вариво з казана
 Brew_Woodtype: Ксилографія
 Brew_Years: Роки
 Brew_fermented: ферментований
-Brew_minute: хвилина
+Brew_minute: Хвилина
 Brew_Alc: Алкоголь &v1ml
 
 # CMD
@@ -34,31 +34,31 @@ CMD_Static: '&aТепер зілля статичне і не змінювати
 CMD_UnLabel: '&aЕтикетку знято!'
 
 # Error
-Error_ConfigUpdate: 'Невідома версія конфігурації плагіна: v&v1, конфіг не було оновлено!'
-Error_ItemNotPotion: '&cПредмет у вашій руці не міг бути ідентифікований як зілля!'
-Error_SealingTableDisabled: '&cThe Sealing Table is disabled'
-Error_SealedAlwaysStatic: 'Sealed Brews are always static!'
+Error_ConfigUpdate: 'Невідома версія конфігу плагіна: v&v1, конфіг не було оновлено!'
+Error_ItemNotPotion: '&cПредмет у вашій руці не міг бути ідентифікований як напій!'
+Error_SealingTableDisabled: '&cСтіл для пломбування вимкнено.'
+Error_SealedAlwaysStatic: 'Запечатані заварки пива завжди є статичними!'
 Error_AlreadyUnlabeled: '&cЗаварка у вашій руці вже без етикетки!'
 Error_NoBarrelAccess: '&cУ вас немає дозволу на доступ до цієї бочки!'
 Error_NoBrewName: '&cНемає рецепта з назвою: ''&v1&c''.'
 Error_NoPermissions: '&cУ вас немає на це дозволу.'
 Error_PlayerCommand: '&cЦю команду можна виконати лише від імені гравця!'
-Error_Recipeload: '&cне всі рецепти вдалося відновити: Більше інформації в лозі сервера!'
+Error_Recipeload: '&cне всі рецепти вдалося відновити: Більше інформації в логах сервера!'
 Error_ShowHelp: Використовуйте &6/brew help &fщоб відобразити довідку.
 Error_UnknownCommand: Невідома команда.
-Error_YmlRead: 'Не вдалося прочитати файл config.yml, будь ласка, переконайтеся, що файл має правильний формат yml (правильні пробіли, застосування '' '' etc.)'
+Error_YmlRead: 'Не вдалося прочитати файл config.yml, будь ласка, переконайтеся, що файл має правильний формат yml (правильні пробіли, застосування '' '', тощо.)'
 
 # Etc
 Etc_Barrel: Бочка
 Etc_Page: Сторінка
-Etc_Usage: 'Використання:'
-Etc_SealingTable: Brew Sealing Table
+Etc_Usage: 'Використання: '
+Etc_SealingTable: Стіл для заварювання пива
 
 # Help
 Help_Copy: '&6/brew copy [кількість]&9 Копіює зілля у вашій руцію'
 Help_Create: "&6/brew create <рецепт> [кількість] [гравець] &9Створіть заварку з необов'язковою якістю (1-10)"
 Help_Delete: '&6/brew delete &9Видаляє напій з руки'
-Help_Help: '&6/brew help [Page] &9Показує певну сторінку довідки'
+Help_Help: '&6/brew help [сторінка] &9Показує певну сторінку довідки'
 Help_Info: '&6/brew info&9 Відображає ваш поточний рівень алкоголю'
 Help_InfoOther: '&6/brew info [гравець]&9 Відображає поточний рівень пияцтва [гравець]'
 Help_Player: '&6/brew <гравець> <%пияцтво> [якість]&9 Встановлює пияцтво (і рівень) для гравця'
