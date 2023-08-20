@@ -147,9 +147,11 @@ customItems:
  # lore: List of additional text on the base potion. (Formatting codes possible: such as &6)
  # customModelData: Custom Model Data Tag. This is a number that can be used to add custom textures to the item.
 
+# короче це кастомні інгредієнти
+
 cauldron:
   ex:
-    name: Example
+    name: Приклад
     ingredients:
       - BEDROCK/2
       - DIAMOND
@@ -179,7 +181,7 @@ cauldron:
       - '858547/10' # dark olive
 
   apple:
-    name: Яблучний сидр
+    name: Яблучник
     ingredients: APPLE
 
   potato:
@@ -195,14 +197,14 @@ cauldron:
       - '99ff99/20' # faded green
 
   rmushroom:
-    name: Грибний відвар
+    name: Грибний трунок 
     ingredients: RED_MUSHROOM
     color: 'ff5c33' # amber red
     cookParticles:
       - 'fab09e/15' # faded red
 
   cocoa:
-    name: Шоколадне заварювання
+    name: Какао
     ingredients: INK_SACK
     color: '804600' # mocca
     cookParticles:
@@ -211,7 +213,7 @@ cauldron:
       - '4d4133/8' # Gray-brown
 
   milk:
-    name: Молочна вода
+    name: Молоко
     ingredients: MILK_BUCKET
     color: BRIGHT_GREY
     cookParticles:
@@ -270,9 +272,10 @@ cauldron:
 
 recipes:
 #  Example Recipe with every possible entry first:
+#  Приклад рецепту з усіма можливими пунктами на початку:
    ex:
-      name: Bad Example/Example/Good Example
-      ingredients:
+      name: Файна або кепська брага мого вуйка з полісся #сюди тре вставити назву 
+      ingredients: # інгредієнти, писати тіко на англійській
       - DIAMOND/1
       - INK_SACK,3/20
       - WOOD,1/8
@@ -280,9 +283,9 @@ recipes:
 #     - ExoticGarden:Grape/3
       - BEDROCK/1
       - ex-item/4
-      cookingtime: 3
-      distillruns: 2
-      distilltime: 60
+      cookingtime: 3 # час для варіння 
+      distillruns: 2 # хуйня якась
+      distilltime: 60  # час для дистиляції (в тіках наче)
       wood: 4
       age: 11
       color: DARK_RED
@@ -295,15 +298,15 @@ recipes:
       - + Smells disgusting
       - ++ Smells alright
       - +++ Smells really good
-      servercommands:
+      servercommands: #типу визиває якісь команди
       - +++ weather clear
       - + weather rain
       playercommands:
       - homes
-      drinkmessage: Tastes good
+      drinkmessage: Tastes good 
       drinktitle: Warms you from inside
       customModelData: 556/557/557
-      effects:
+      effects: #ефекти від напою
       - FIRE_RESISTANCE/20
       - HEAL/1
       - WEAKNESS/2-3/50-60
@@ -364,7 +367,7 @@ recipes:
       alcohol: 9
 
    ap_mead:
-      name: Яблучний мед.
+      name: Яблучна медовуха
       ingredients:
       - SUGAR_CANE/6
       - APPLE/2
@@ -399,7 +402,7 @@ recipes:
       - POISONX/1-0/30-0
 
    vodka:
-      name: Водка
+      name: Горілка
       ingredients:
       - POTATO_ITEM/10
       cookingtime: 15
@@ -414,7 +417,7 @@ recipes:
       - POISON/10
 
    absinthe:
-      name: Абсент
+      name: Полинівка
       ingredients:
       - LONG_GRASS/15
       cookingtime: 3
